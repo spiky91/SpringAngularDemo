@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd">
+    <changeSet id="testData" author="a788957">
+        <insert tableName="person">
+            <column name="name" value="testData1"/>
+            <column name="surname" value="nachData1"/>
+        </insert>
+        <insert tableName="person">
+            <column name="name" value="testData2"/>
+            <column name="surname" value="nachData2"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

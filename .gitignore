@@ -1,0 +1,6 @@
+# Project exclude paths
+/AngularARS/node_modules/
+/AngularFrontend/dist/
+/AngularFrontend/node_modules/
+/AngularFrontend/target/
+/ToursOfHeroes/node_modules/
